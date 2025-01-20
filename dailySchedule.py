@@ -17,7 +17,7 @@ def job():
         result = subprocess.run(["python", "autoKeilv3.py", current_time], check=True)
         # to get the latest version
         version_define_dir = (
-            r"path\of\version\macro\hex\file"
+            r"path\of\version\macro\header\file"
         )
         variable_name = "FW_VERSION"
         value = getVersionValue(version_define_dir, variable_name)
