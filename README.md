@@ -7,4 +7,5 @@
 The process mainly use **autoKeil.py**, **autoEmail.py**, and **dailySchedule.py**.
 ## Others
 * **autoMISRACv2.py** is used MISRA C to scan the whole directory.
-* **webSocketsClient.py** and **webSocketsServer.py** use WebSocket to allow R&D to remotely trigger real-time compilation on the build server.  
+* **webSocketsClient.py** and **webSocketsServer.py** use WebSocket to allow R&D to remotely trigger real-time compilation on the build server.
+* The compile command is **python webSocketsClient.py "tag or branch"**  
