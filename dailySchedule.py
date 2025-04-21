@@ -1,8 +1,8 @@
 import schedule
 import time
 import subprocess
-from autoEmailv2 import sendEmailWithFiles
-from autoKeilv3 import getVersionValue
+from autoEmail import sendEmailWithFiles
+from autoKeil import getVersionValue
 from datetime import datetime
 
 smtp_server = "email server ip or DNS"

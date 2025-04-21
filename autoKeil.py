@@ -4,7 +4,7 @@ import shutil
 import sys
 import re
 from datetime import datetime
-from autoEmailv2 import gitPullFailedEmail
+from autoEmail import gitPullFailedEmail
 
 keil_path = r"C:\Keil_v5\UV4\UV4.exe"
 project_path = (
