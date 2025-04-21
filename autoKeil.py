@@ -10,8 +10,8 @@ keil_path = r"C:\MDK\UV4\UV4.exe"
 project_path = r"path\to\your\file\or\project\*.uvprojx"
 
 if len(sys.argv) > 1:
-    current_time = sys.argv[1]
-    # git_tag = sys.argv[1]
+    # current_time = sys.argv[1]
+    git_tag = sys.argv[1]
     # current_time = datetime.now().strftime("%Y-%m-%d_%H%M")
 else:
     current_time = datetime.now().strftime("%Y-%m-%d_%H%M")
