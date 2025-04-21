@@ -14,7 +14,7 @@ to_addr = ["receiver email"]
 def job():
     try:
         current_time = datetime.now().strftime("%Y-%m-%d_%H%M")
-        result = subprocess.run(["python", "autoKeilv3.py", current_time], check=True)
+        result = subprocess.run(["python", "autoKeil.py", current_time], check=True)
         # to get the latest version
         version_define_dir = (
             r"path\of\version\macro\header\file"
@@ -29,7 +29,7 @@ def job():
             )
 
     except subprocess.CalledProcessError as e:
-        print(f"Error occurred while running autoKeilv3.py: {e}")
+        print(f"Error occurred while running autoKeil.py: {e}")
     except Exception as e:
         print(f"Schedule fatal error: {e}")
 
